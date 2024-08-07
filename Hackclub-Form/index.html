@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <header>
+  </header>
+  <body>
+    <h1 id="title">Hackclub Berlin Form</h1>
+    <p id="description">The last step to join the team</p>
+    <form id="survey-form">
+      <label id="name-label">Full Name<input id="name" type="text" required placeholder="Enter your name"></label>
+      <label id="email-label">School Email<input id="email" type="email" required placeholder="Enter your school email"></label>
+      <label id="number-label">Age<input id="number" type="number" min="11" max="20" placeholder="Age"></label>
+      <label>Class
+        <select id="dropdown">
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+        </select>
+        <select>
+          <option>A</option>
+          <option>B</option>
+          <option>C</option>
+          <option>D</option>
+          <option>E</option>
+          <option>Abitur</option>
+          <option>IB</option>
+        </select>
+      </label>
+      <fieldset>
+        <legend>Experience with programming</legend>
+        <label><input type="radio" name="experience-programming" value="1">1</label>
+        <label><input type="radio" name="experience-programming" value="2">2</label>
+        <label><input type="radio" name="experience-programming" value="3">3</label>
+        <label><input type="radio" name="experience-programming" value="4">4</label>
+        <label><input type="radio" name="experience-programming" value="5">5</label>
+        <label><input type="radio" name="experience-programming" value="6">6</label>
+        <label><input type="radio" name="experience-programming" value="7">7</label>
+      </fieldset>
+      <fieldset>
+        <legend>Select all the things you are interested in</legend>
+        <label><input type="checkbox" value="Robotics"> Robotics</label>
+        <label><input type="checkbox" value="3D-Modelling"> 3D Modelling</label>
+        <label><input type="checkbox" value="Game-Development"> Game Development</label>
+        <label><input type="checkbox" value="Digital-Art"> Digital Art</label>
+        <label><input type="checkbox" value="Web-Development"> Web Development</label>
+        <label><input type="checkbox" value="App-Development"> App Development</label>
+        <label><input type="checkbox" value="Machine-Learning-&-AI"> Machine Learning & AI</label>
+      </fieldset>
+      <fieldset>
+        <legend>Any comments or suggestions?</legend>
+        <textarea></textarea>
+      </fieldset>
+      <input type="submit" id="submit">
+    </form>
+  </body>
+</html>
